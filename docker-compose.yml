@@ -15,7 +15,7 @@ services:
   ns:
     container_name: ns
     build:
-      context: ./node-server
+      context: ./node_server
     depends_on:
       - pg
     environment:
